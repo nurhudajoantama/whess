@@ -2,7 +2,7 @@
 
 Simple Self-Hosted API Webhook for WhatsApp
 
-it's a simple self-hosted API webhook for WhatsApp, you can use it to send messages to your WhatsApp number from any application that can make HTTP requests.
+it's a simple self-hosted API webhook for WhatsApp, you can use it to send messages from your WhatsApp number from any application that can make HTTP requests.
 
 ### How to use
 
