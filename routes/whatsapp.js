@@ -16,11 +16,6 @@ routes.use((req, res, next) => {
   return next();
 });
 
-routes.use((req, res, next) => {
-  if (!whatsapp.isReady()) return res.status(401).json(response.errorResponse("Please wait for whatsapp to be ready"));
-  return next();
-});
-
 routes.get("/qr", (req, res) => {
   const qr = whatsapp.getQr();
   if (!qr) return res.status(404).json(response.errorResponse("Please wait for qr to be generated or you has been logged in"));
